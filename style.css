@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: #142e4a;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2.8rem;
+  justify-content: space-around;
+}
+
+header {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+header > h1 {
+  font-size: clamp(3.2rem, 8vw, 6rem);
+}
+
+header > p {
+  font-size: clamp(2rem, 6vw, 4rem);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  align-items: center;
+}
+
+/* Score */
+
+#score {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ffffff0c;
+  padding: 2rem;
+  border-radius: 2.4rem;
+}
+
+.gamer {
+  font-size: clamp(2.8rem, 20%, 5rem);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.gamer > p {
+  font-weight: bold;
+}
+
+/* Buttons */
+
+#buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#buttons > button {
+  background-color: transparent;
+  font-size: clamp(6rem, 16vw, 10rem);
+  border: none;
+  cursor: pointer;
+}
+
+#buttons > button:hover {
+  text-shadow: 0.2rem 0.2rem 1rem white;
+}
+
+#buttons > button:focus {
+  text-shadow: 0.2rem 0.2rem 1rem #db8f15;
+}
+
+/* media */
+
+@media (min-width: 350px) {
+  main {
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 500px) {
+  #score {
+    width: 50%;
+    padding: 1rem;
+  }
+
+  main {
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Papper - Scissor - Rock</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <h1>Papper Scissor Rock</h1>
+        <p id="message">Pick a button up</p>
+      </header>
+      <main>
+        <section id="score">
+          <div class="player gamer">
+            <p>User</p>
+            <span id="user-score">0</span>
+            <span id="user-choice">👽</span>
+          </div>
+          <div class="cpu gamer">
+            <p>Bot</p>
+            <span id="bot-score">0</span>
+            <span id="bot-choice">🤖</span>
+          </div>
+        </section>
+        <section id="buttons">
+          <button>✋</button>
+          <button>✌️</button>
+          <button>✊</button>
+        </section>
+      </main>
+    </div>
+    <script src="index.js" defer></script>
+  </body>
+</html>
