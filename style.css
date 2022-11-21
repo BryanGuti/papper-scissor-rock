@@ -85,11 +85,11 @@ main {
 }
 
 #buttons > button:hover {
-  text-shadow: 0.2rem 0.2rem 1rem white;
+  text-shadow: 0 0 1rem white;
 }
 
 #buttons > button:focus {
-  text-shadow: 0.2rem 0.2rem 1rem #db8f15;
+  text-shadow: 0 0 1.2rem #db8f15;
 }
 
 /* media */

@@ -70,15 +70,15 @@ window.addEventListener("load", () => {
 
   function refreshBox(winner) {
     if (winner === "user") {
-      box.style.boxShadow = ".1rem .1rem 1.5rem greenyellow";
+      box.style.boxShadow = "0 0 1.5rem greenyellow";
       return;
     }
     if (winner === "bot") {
-      box.style.boxShadow = ".1rem .1rem 1.5rem tomato";
+      box.style.boxShadow = "0 0 1.5rem tomato";
       return;
     }
 
-    box.style.boxShadow = ".1rem .1rem 1.5rem white";
+    box.style.boxShadow = "0 0 1.5rem white";
   }
 
   function game(event) {
