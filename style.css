@@ -89,8 +89,8 @@ main {
   text-shadow: 0 0 1rem white;
 }
 
-#buttons > button:focus {
-  text-shadow: 0 0 1.2rem #db8f15;
+#buttons > button:active {
+  text-shadow: 0 0 2rem #db8f15;
 }
 
 /* media */
